@@ -1,0 +1,8 @@
+# Apache doit avoir le module mod_rewrite activé pour que .htaccess fonctionne
+RewriteEngine On
+
+# ^$ → Correspond à l’URL vide (localhost/mvc)
+# public/index.php → Apache va servir ce fichier à la place
+# [L] → Stoppe la réécriture après cette règle (évite d’autres règles inutiles)
+RewriteRule ^$ public/index.php [L]
+

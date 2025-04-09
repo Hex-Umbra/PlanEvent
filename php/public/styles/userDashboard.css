@@ -1,0 +1,85 @@
+.dashboard-body{
+    height: calc(100vh - 24.9vh);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    text-align: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.user-credentials{
+    width: 40%;
+    padding: 20px;
+    background-color: #8080ff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0);
+}
+
+.user-credentials .infos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.user-credentials h2{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #d399ff;
+    border-bottom: solid #9000ff;
+}
+.user-credentials h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #d399ff;
+}
+.user-credentials span{
+    font-size: 1.5rem;
+    color: #808080;
+    font-weight: normal;
+}
+
+.user-linked-events{
+    width: 50%;
+    padding: 20px;
+    background-color: #8080ff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0);
+}
+
+.user-linked-events h2{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #d399ff;
+    border-bottom: solid #9000ff;
+}
+
+.user-linked-events .events table{
+    width: 100%;
+    border-collapse: collapse;
+    border: solid 1px black;
+}
+.user-linked-events .events table th{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #d399ff;
+    padding: 10px;
+    border: solid #9000ff;
+}
+.user-linked-events .events table td{
+    font-size: 1.5rem;
+    color: #808080;
+    font-weight: normal;
+    border: solid #9000ff;
+    text-align: center;
+    padding: 5px;
+}

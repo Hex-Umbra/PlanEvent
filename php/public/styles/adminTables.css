@@ -1,0 +1,88 @@
+.section-body {
+  margin: 0;
+  padding: 0;
+}
+
+.section-body .create-button{
+    top: 20px;
+    padding: 10px;
+    margin: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.section-body .create-button:hover{
+    background-color: #3e8e41;
+}
+.section-body .delete-button{
+    top: 20px;
+    padding: 10px;
+    margin: 20px;
+    background-color: #af4c4c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.section-body .delete-button:hover{
+    background-color: #8e3e3e;
+}
+.section-body .edit-button{
+    top: 20px;
+    padding: 10px;
+    margin: 20px;
+    background-color: #af9d4c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.section-body .edit-button:hover{
+    background-color: #8e893e;
+}
+.section-body .special-button{
+    top: 20px;
+    padding: 10px;
+    margin: 20px;
+    background-color: #4c53af;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.section-body .special-button:hover{
+    background-color: #4a3e8e;
+}
+
+.section-body .table-container {
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.section-body .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.section-body .table-container table, th, td {
+    border: 1px solid #ddd;
+}
+.section-body .table-container th, td {
+    padding: 12px;
+    text-align: left;
+}
+.section-body .table-container th {
+    background-color: #f2f2f2;
+}

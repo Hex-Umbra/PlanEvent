@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Bebas-Neue';
+  src: url("../assets/fonts/bebas_neue/BebasNeue Regular.ttf") format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+} 
+
+ body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(159deg, #d399ff 28%, #9999ff 68%);
+  font-family: "Bebas-Neue", sans-serif;
+  min-height: 100vh;
+  max-height: fit-content;
+}
+
+.body{
+  display: flex;
+  flex-direction: column;
+}
+

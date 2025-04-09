@@ -1,0 +1,30 @@
+services:
+  web:
+    build: ./php
+    container_name: PlanEvent-app
+    restart: always
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
+    volumes: ["./php:/var/www/html"]
+    environment:
+      DB_HOST: db
+      DB_NAME: gestion_events
+
+  db:
+    build: ./db
+    container_name: PlanEvent-database
+    restart: always
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_USER: admin_events
+      MYSQL_PASSWORD: randomShenanigans!!//??
+      MYSQL_DATABASE: gestion_events
+      MYSQL_ROOT_PASSWORD: incredible_password
+    volumes:
+      - db_data:/var/lib/mysql
+
+volumes:
+  db_data:
